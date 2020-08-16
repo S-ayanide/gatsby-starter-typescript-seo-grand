@@ -128,15 +128,9 @@ const MyComponent = () => (
 );
 ```
 
-## CSS Debugger
+## Preview
 
-This starter also includes a `CSSDebugger` component. This component allows you to easily debug your styles by drawing outlines around all elements and applying a grid in the background. It also includes a toggle button that you can optionally use during debugging.
-
-**_Note: You can drag the toggle button around if it gets in your way._**
-
-The `CSSDebugger` component is used in the `layout.tsx` component.
-
-<img src="https://res.cloudinary.com/gojutin/image/upload/v1568660140/gatsby-starter-typescript-deluxe/css-debugger.gif" alt="GIF of css debugger" style="max-width: 100%;" />
+<img src="https://i.ibb.co/vV515Kt/Gatsby.png" alt="Gatsby Starter Typescript SEO Grade Preview" style="max-width: 100%;" />
 
 ## Linting
 
@@ -180,7 +174,7 @@ npm run build
 
 ## Lighthouse Audit Score 💯
 
-<img src="https://res.cloudinary.com/gojutin/image/upload/v1568660306/gatsby-starter-typescript-deluxe/gatsby-starter-typescript-deluxe-lighthouse-audit.gif" style="max-width: 100%;" alt="Lighthouse Score" />
+<img src="https://i.ibb.co/3NpYMsT/Lighthouse-Audit.png" style="max-width: 100%;" alt="Lighthouse Score" />
 
 ## TODOS
 
