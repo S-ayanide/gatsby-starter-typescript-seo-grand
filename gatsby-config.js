@@ -2,7 +2,7 @@ const siteTitle = "gatsby-starter-typescript-seo-grand";
 const siteDescription =
 	"A Gatsby starter with TypeScript, SEO, Styled Components, Prettier, PWA Support, Jest, and more.";
 const siteAuthor = "@s_ayanide";
-const siteUrl = "";
+const siteUrl = "https://gatsby-starter-typescript-seo-grand.netlify.app/";
 const siteImage = `${siteUrl}/icons/ms-icon-310x310.png`;
 const siteKeywords = [
 	"gatsby",
@@ -40,9 +40,8 @@ module.exports = {
 		{
 			resolve: "gatsby-plugin-robots-txt",
 			options: {
-				host: "https://www.inspiring-swirles-f32066.netlify.com",
-				sitemap:
-					"https://www.inspiring-swirles-f32066.netlify.com/sitemap.xml",
+				host: siteUrl,
+				sitemap: `${siteUrl}/sitemap.xml`,
 				policy: [{ userAgent: "*", allow: "/" }],
 			},
 		},
