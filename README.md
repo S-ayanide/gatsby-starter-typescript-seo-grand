@@ -2,7 +2,7 @@
 
 ### An opinionated starter library for creating React applications with Gatsby (v2) and TypeScript along with good SEO and PWA support.
 
-### [View Demo](https://gatsby-starter-typescript-deluxe.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/597e0057-8bee-4e33-a49f-1988d2c203ce/deploy-status)](https://app.netlify.com/sites/gatsby-starter-typescript-seo-grand/deploys)
+### [View Demo](https://gatsby-starter-typescript-seo-grand.netlify.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/597e0057-8bee-4e33-a49f-1988d2c203ce/deploy-status)](https://app.netlify.com/sites/gatsby-starter-typescript-seo-grand/deploys)
 
 This starter library is pre-configured with the following integrations:
 
