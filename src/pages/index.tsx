@@ -1,9 +1,18 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Layout } from '../components/layout'
 import { SEO } from '../components/seo'
 import { OutlinedButton } from '../components/button'
 import { Link } from 'gatsby'
+import { SubText } from '../components/texts'
 import { useTheme } from '../styles'
+
+const FooterStyle = styled.div`
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+`
 
 const Button: React.FC = () => {
   const { textSecondary } = useTheme().colors
@@ -13,6 +22,19 @@ const Button: React.FC = () => {
         Check out the Source Code
       </OutlinedButton>
     </Link>
+  )
+}
+
+const Footer: React.FC = () => {
+  return (
+    <FooterStyle>
+      <SubText>
+        Created by{' '}
+        <Link to="https://github.com/S-ayanide">
+          <span style={{ textDecoration: 'underline' }}>S-ayanide</span> 💜
+        </Link>
+      </SubText>
+    </FooterStyle>
   )
 }
 
@@ -33,6 +55,7 @@ const App = () => {
         <li>Jest</li>
       </ul>
       <Button />
+      <Footer />
     </Layout>
   )
 }
