@@ -2,18 +2,18 @@
 
 ### An opinionated starter library for creating React applications with Gatsby (v2) and TypeScript along with good SEO and PWA support.
 
-### [View Demo](https://gatsby-starter-typescript-deluxe.netlify.com)
+### [View Demo](https://gatsby-starter-typescript-deluxe.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/597e0057-8bee-4e33-a49f-1988d2c203ce/deploy-status)](https://app.netlify.com/sites/gatsby-starter-typescript-seo-grand/deploys)
 
 This starter library is pre-configured with the following integrations:
 
-- **TypeScript** for type-safe code.
-- **Styled-Components** for all your styles.
-- **modern-css-reset** for a reset of sensible default styles.
-- **gatsby-image and gatsby-transformer-sharp** for optimized images.
-- **gatsby-plugin-manifest / SEO component** for an SEO-friendly PWA.
-- **Jest and React Testing library** for snapshots and unit tests.
-- **ESLint with an emphasis on functional patterns (with Prettier and TypeScript integration)** to make your code look its best.
-- **React Axe and React A11y for accessibility** so that your site is awesome for everyone.
+-   **TypeScript** for type-safe code.
+-   **Styled-Components** for all your styles.
+-   **modern-css-reset** for a reset of sensible default styles.
+-   **gatsby-image and gatsby-transformer-sharp** for optimized images.
+-   **gatsby-plugin-manifest / SEO component** for an SEO-friendly PWA.
+-   **Jest and React Testing library** for snapshots and unit tests.
+-   **ESLint with an emphasis on functional patterns (with Prettier and TypeScript integration)** to make your code look its best.
+-   **React Axe and React A11y for accessibility** so that your site is awesome for everyone.
 
 ## Installation
 
@@ -95,19 +95,19 @@ The theme utilizes the [use-media](https://github.com/streamich/use-media) libra
 This starter is also preconfigured to work with the `css` prop:
 
 ```jsx
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const MyComponent = () => (
-  <div>
-    <h1
-      css={`
-        color: #333;
-      `}
-    >
-      Hello World!
-    </h1>
-  </div>
-)
+	<div>
+		<h1
+			css={`
+				color: #333;
+			`}
+		>
+			Hello World!
+		</h1>
+	</div>
+);
 ```
 
 _Note: The `css` prop does not play nicely with the `jsx-no-multiline-js` ESLint rule. You may want to disable the rule if you plan on using the `css` prop. This can be done in the `.eslintrc.js` file._
@@ -115,17 +115,17 @@ _Note: The `css` prop does not play nicely with the `jsx-no-multiline-js` ESLint
 I personally do not use the `css` prop and prefer to define styled-components outside of the component definition. My general rule is if the component that is using a styled-component is the only component that uses it, I define the styled-component in the same file. Otherwise, I will move it out to a `components/common` directory.
 
 ```tsx
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const Heading = styled.h1`
-  color: #333;
-`
+	color: #333;
+`;
 
 const MyComponent = () => (
-  <div>
-    <Heading>Hello World!</Heading>
-  </div>
-)
+	<div>
+		<Heading>Hello World!</Heading>
+	</div>
+);
 ```
 
 ## CSS Debugger
@@ -184,7 +184,7 @@ npm run build
 
 ## TODOS
 
-- Write more robust unit tests for all components and custom hook.
-- Possibly add support for MDX and markdown.
+-   Write more robust unit tests for all components and custom hook.
+-   Possibly add support for MDX and markdown.
 
 That's about it. Now, build something awesome 😀
