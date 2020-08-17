@@ -2,7 +2,7 @@
 
 ### An opinionated starter library for creating React applications with Gatsby (v2) and TypeScript along with good SEO and PWA support.
 
-### [View Demo](https://gatsby-starter-typescript-deluxe.netlify.com) [![Netlify Status](https://api.netlify.com/api/v1/badges/597e0057-8bee-4e33-a49f-1988d2c203ce/deploy-status)](https://app.netlify.com/sites/gatsby-starter-typescript-seo-grand/deploys)
+### [View Demo](https://gatsby-starter-typescript-seo-grand.netlify.app/) [![Netlify Status](https://api.netlify.com/api/v1/badges/597e0057-8bee-4e33-a49f-1988d2c203ce/deploy-status)](https://app.netlify.com/sites/gatsby-starter-typescript-seo-grand/deploys)
 
 This starter library is pre-configured with the following integrations:
 
@@ -12,6 +12,7 @@ This starter library is pre-configured with the following integrations:
 -   **gatsby-image and gatsby-transformer-sharp** for optimized images.
 -   **gatsby-plugin-manifest / SEO component** for an SEO-friendly PWA.
 -   **Jest and React Testing library** for snapshots and unit tests.
+-   **gatsby-plugin-catch-links** for avoiding the browser having to refresh the whole page when navigating between local pages.
 -   **ESLint with an emphasis on functional patterns (with Prettier and TypeScript integration)** to make your code look its best.
 -   **React Axe and React A11y for accessibility** so that your site is awesome for everyone.
 
@@ -86,10 +87,6 @@ You can define your theme styles in the `/src/styles/theme` file. The theme will
 
 The theme utilizes the [use-media](https://github.com/streamich/use-media) library, which allows you to track the state of a CSS media queries. This works by passing a boolean for each screen size that you defined in your theme. Just define your screen sizes in `src/styles/theme`.
 
-#### Styling Examples
-
-**`src/pages/about.tsx` includes various examples (with comments) of using styled-components with the theme provider.**
-
 #### The CSS Prop
 
 This starter is also preconfigured to work with the `css` prop:
@@ -128,15 +125,9 @@ const MyComponent = () => (
 );
 ```
 
-## CSS Debugger
+## Preview
 
-This starter also includes a `CSSDebugger` component. This component allows you to easily debug your styles by drawing outlines around all elements and applying a grid in the background. It also includes a toggle button that you can optionally use during debugging.
-
-**_Note: You can drag the toggle button around if it gets in your way._**
-
-The `CSSDebugger` component is used in the `layout.tsx` component.
-
-<img src="https://res.cloudinary.com/gojutin/image/upload/v1568660140/gatsby-starter-typescript-deluxe/css-debugger.gif" alt="GIF of css debugger" style="max-width: 100%;" />
+<img src="https://i.ibb.co/vV515Kt/Gatsby.png" alt="Gatsby Starter Typescript SEO Grade Preview" style="max-width: 100%;" />
 
 ## Linting
 
@@ -180,7 +171,7 @@ npm run build
 
 ## Lighthouse Audit Score 💯
 
-<img src="https://res.cloudinary.com/gojutin/image/upload/v1568660306/gatsby-starter-typescript-deluxe/gatsby-starter-typescript-deluxe-lighthouse-audit.gif" style="max-width: 100%;" alt="Lighthouse Score" />
+<img src="https://i.ibb.co/3NpYMsT/Lighthouse-Audit.png" style="max-width: 100%;" alt="Lighthouse Score" />
 
 ## TODOS
 

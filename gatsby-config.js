@@ -59,7 +59,8 @@ module.exports = {
 		`gatsby-plugin-styled-components`,
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
-		"gatsby-plugin-react-helmet",
+		`gatsby-plugin-catch-links`,
+		`gatsby-plugin-react-helmet`,
 		`gatsby-plugin-typescript`,
 		{
 			resolve: `gatsby-plugin-manifest`,
@@ -71,7 +72,7 @@ module.exports = {
 				background_color: `#663399`,
 				theme_color: `#663399`,
 				display: `minimal-ui`,
-				icon: "src/images/icon.png",
+				icon: "src/images/icon.png", // Change the icon.png in src/images and static folder to modify the favicon
 				icons: [
 					{
 						src: "icons/ms-icon-310x310.png",
