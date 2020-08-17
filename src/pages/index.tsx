@@ -49,9 +49,10 @@ const App = () => {
         <li>TypeScript</li>
         <li>SEO</li>
         <li>Styled Component</li>
-        <li>Pre-Defined Component</li>
+        <li>Pre-Defined Components</li>
         <li>Prettier</li>
         <li>PWA Support</li>
+        <li>No Browser refresh while switching routes</li>
         <li>Jest</li>
       </ul>
       <Button />

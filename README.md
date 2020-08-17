@@ -12,6 +12,7 @@ This starter library is pre-configured with the following integrations:
 -   **gatsby-image and gatsby-transformer-sharp** for optimized images.
 -   **gatsby-plugin-manifest / SEO component** for an SEO-friendly PWA.
 -   **Jest and React Testing library** for snapshots and unit tests.
+-   **gatsby-plugin-catch-links** for avoiding the browser having to refresh the whole page when navigating between local pages.
 -   **ESLint with an emphasis on functional patterns (with Prettier and TypeScript integration)** to make your code look its best.
 -   **React Axe and React A11y for accessibility** so that your site is awesome for everyone.
 
@@ -85,10 +86,6 @@ You can define your theme styles in the `/src/styles/theme` file. The theme will
 #### Handling Media Queries
 
 The theme utilizes the [use-media](https://github.com/streamich/use-media) library, which allows you to track the state of a CSS media queries. This works by passing a boolean for each screen size that you defined in your theme. Just define your screen sizes in `src/styles/theme`.
-
-#### Styling Examples
-
-**`src/pages/about.tsx` includes various examples (with comments) of using styled-components with the theme provider.**
 
 #### The CSS Prop
 
